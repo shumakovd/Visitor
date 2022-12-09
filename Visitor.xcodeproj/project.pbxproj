@@ -8,14 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		849253CA294393370068D6E0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849253C9294393370068D6E0 /* AppDelegate.swift */; };
-		849253CC294393370068D6E0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849253CB294393370068D6E0 /* SceneDelegate.swift */; };
-		849253CE294393370068D6E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849253CD294393370068D6E0 /* ViewController.swift */; };
 		849253D1294393380068D6E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849253CF294393380068D6E0 /* Main.storyboard */; };
 		849253D32943933B0068D6E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849253D22943933B0068D6E0 /* Assets.xcassets */; };
 		849253D62943933B0068D6E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849253D42943933B0068D6E0 /* LaunchScreen.storyboard */; };
 		849253E12943933C0068D6E0 /* VisitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849253E02943933C0068D6E0 /* VisitorTests.swift */; };
 		849253EB2943933C0068D6E0 /* VisitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849253EA2943933C0068D6E0 /* VisitorUITests.swift */; };
 		849253ED2943933C0068D6E0 /* VisitorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849253EC2943933C0068D6E0 /* VisitorUITestsLaunchTests.swift */; };
+		849253FD2943937E0068D6E0 /* VisitorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849253FC2943937E0068D6E0 /* VisitorVC.swift */; };
+		84925402294394240068D6E0 /* Component.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84925401294394240068D6E0 /* Component.swift */; };
+		84925405294394400068D6E0 /* ConcreteComponentA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84925404294394400068D6E0 /* ConcreteComponentA.swift */; };
+		84925407294394520068D6E0 /* ConcreteComponentB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84925406294394520068D6E0 /* ConcreteComponentB.swift */; };
+		84925409294394670068D6E0 /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84925408294394670068D6E0 /* Visitor.swift */; };
+		8492540C2943948C0068D6E0 /* ConcreteVisitor1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492540B2943948C0068D6E0 /* ConcreteVisitor1.swift */; };
+		8492540E294394990068D6E0 /* ConcreteVisitor2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492540D294394990068D6E0 /* ConcreteVisitor2.swift */; };
+		84925411294394BB0068D6E0 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84925410294394BB0068D6E0 /* Client.swift */; };
+		84925414294395690068D6E0 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84925413294395690068D6E0 /* Notification.swift */; };
+		84925417294395870068D6E0 /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84925416294395870068D6E0 /* Email.swift */; };
+		849254192943959E0068D6E0 /* SMS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849254182943959E0068D6E0 /* SMS.swift */; };
+		8492541B294395B50068D6E0 /* Push.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492541A294395B50068D6E0 /* Push.swift */; };
+		8492541D294395E00068D6E0 /* NotificationPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492541C294395E00068D6E0 /* NotificationPolicy.swift */; };
+		84925420294396040068D6E0 /* NightPolicyVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492541F294396040068D6E0 /* NightPolicyVisitor.swift */; };
+		84925422294396110068D6E0 /* DefaultPolicyVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84925421294396110068D6E0 /* DefaultPolicyVisitor.swift */; };
+		84925424294396210068D6E0 /* BlackListVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84925423294396210068D6E0 /* BlackListVisitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +52,6 @@
 /* Begin PBXFileReference section */
 		849253C6294393370068D6E0 /* Visitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Visitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		849253C9294393370068D6E0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		849253CB294393370068D6E0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		849253CD294393370068D6E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		849253D0294393380068D6E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		849253D22943933B0068D6E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		849253D52943933B0068D6E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +61,22 @@
 		849253E62943933C0068D6E0 /* VisitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849253EA2943933C0068D6E0 /* VisitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorUITests.swift; sourceTree = "<group>"; };
 		849253EC2943933C0068D6E0 /* VisitorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		849253FC2943937E0068D6E0 /* VisitorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorVC.swift; sourceTree = "<group>"; };
+		84925401294394240068D6E0 /* Component.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Component.swift; sourceTree = "<group>"; };
+		84925404294394400068D6E0 /* ConcreteComponentA.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteComponentA.swift; sourceTree = "<group>"; };
+		84925406294394520068D6E0 /* ConcreteComponentB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteComponentB.swift; sourceTree = "<group>"; };
+		84925408294394670068D6E0 /* Visitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visitor.swift; sourceTree = "<group>"; };
+		8492540B2943948C0068D6E0 /* ConcreteVisitor1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteVisitor1.swift; sourceTree = "<group>"; };
+		8492540D294394990068D6E0 /* ConcreteVisitor2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteVisitor2.swift; sourceTree = "<group>"; };
+		84925410294394BB0068D6E0 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		84925413294395690068D6E0 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		84925416294395870068D6E0 /* Email.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };
+		849254182943959E0068D6E0 /* SMS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMS.swift; sourceTree = "<group>"; };
+		8492541A294395B50068D6E0 /* Push.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Push.swift; sourceTree = "<group>"; };
+		8492541C294395E00068D6E0 /* NotificationPolicy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPolicy.swift; sourceTree = "<group>"; };
+		8492541F294396040068D6E0 /* NightPolicyVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightPolicyVisitor.swift; sourceTree = "<group>"; };
+		84925421294396110068D6E0 /* DefaultPolicyVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultPolicyVisitor.swift; sourceTree = "<group>"; };
+		84925423294396210068D6E0 /* BlackListVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackListVisitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +128,11 @@
 			isa = PBXGroup;
 			children = (
 				849253C9294393370068D6E0 /* AppDelegate.swift */,
-				849253CB294393370068D6E0 /* SceneDelegate.swift */,
-				849253CD294393370068D6E0 /* ViewController.swift */,
-				849253CF294393380068D6E0 /* Main.storyboard */,
+				849253FF294393CF0068D6E0 /* Example */,
+				849253FE294393C70068D6E0 /* Concept */,
+				849253FA294393610068D6E0 /* ViewControllers */,
+				849253F92943935A0068D6E0 /* Storyboards */,
 				849253D22943933B0068D6E0 /* Assets.xcassets */,
-				849253D42943933B0068D6E0 /* LaunchScreen.storyboard */,
 				849253D72943933B0068D6E0 /* Info.plist */,
 			);
 			path = Visitor;
@@ -125,6 +153,116 @@
 				849253EC2943933C0068D6E0 /* VisitorUITestsLaunchTests.swift */,
 			);
 			path = VisitorUITests;
+			sourceTree = "<group>";
+		};
+		849253F92943935A0068D6E0 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				849253CF294393380068D6E0 /* Main.storyboard */,
+				849253D42943933B0068D6E0 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		849253FA294393610068D6E0 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				849253FB2943936A0068D6E0 /* VisitorVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		849253FB2943936A0068D6E0 /* VisitorVC */ = {
+			isa = PBXGroup;
+			children = (
+				849253FC2943937E0068D6E0 /* VisitorVC.swift */,
+			);
+			path = VisitorVC;
+			sourceTree = "<group>";
+		};
+		849253FE294393C70068D6E0 /* Concept */ = {
+			isa = PBXGroup;
+			children = (
+				84925400294394160068D6E0 /* Interface */,
+				84925403294394300068D6E0 /* Components */,
+				8492540A2943947E0068D6E0 /* Visitors */,
+				8492540F294394AB0068D6E0 /* Client */,
+			);
+			path = Concept;
+			sourceTree = "<group>";
+		};
+		849253FF294393CF0068D6E0 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				84925412294395470068D6E0 /* Interface */,
+				84925415294395780068D6E0 /* Structures */,
+				8492541E294395F30068D6E0 /* Visitors */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		84925400294394160068D6E0 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				84925408294394670068D6E0 /* Visitor.swift */,
+				84925401294394240068D6E0 /* Component.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		84925403294394300068D6E0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				84925404294394400068D6E0 /* ConcreteComponentA.swift */,
+				84925406294394520068D6E0 /* ConcreteComponentB.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8492540A2943947E0068D6E0 /* Visitors */ = {
+			isa = PBXGroup;
+			children = (
+				8492540B2943948C0068D6E0 /* ConcreteVisitor1.swift */,
+				8492540D294394990068D6E0 /* ConcreteVisitor2.swift */,
+			);
+			path = Visitors;
+			sourceTree = "<group>";
+		};
+		8492540F294394AB0068D6E0 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				84925410294394BB0068D6E0 /* Client.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		84925412294395470068D6E0 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				84925413294395690068D6E0 /* Notification.swift */,
+				8492541C294395E00068D6E0 /* NotificationPolicy.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		84925415294395780068D6E0 /* Structures */ = {
+			isa = PBXGroup;
+			children = (
+				84925416294395870068D6E0 /* Email.swift */,
+				849254182943959E0068D6E0 /* SMS.swift */,
+				8492541A294395B50068D6E0 /* Push.swift */,
+			);
+			path = Structures;
+			sourceTree = "<group>";
+		};
+		8492541E294395F30068D6E0 /* Visitors */ = {
+			isa = PBXGroup;
+			children = (
+				8492541F294396040068D6E0 /* NightPolicyVisitor.swift */,
+				84925421294396110068D6E0 /* DefaultPolicyVisitor.swift */,
+				84925423294396210068D6E0 /* BlackListVisitor.swift */,
+			);
+			path = Visitors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +396,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				849253CE294393370068D6E0 /* ViewController.swift in Sources */,
 				849253CA294393370068D6E0 /* AppDelegate.swift in Sources */,
-				849253CC294393370068D6E0 /* SceneDelegate.swift in Sources */,
+				84925402294394240068D6E0 /* Component.swift in Sources */,
+				8492541D294395E00068D6E0 /* NotificationPolicy.swift in Sources */,
+				84925405294394400068D6E0 /* ConcreteComponentA.swift in Sources */,
+				849254192943959E0068D6E0 /* SMS.swift in Sources */,
+				849253FD2943937E0068D6E0 /* VisitorVC.swift in Sources */,
+				84925417294395870068D6E0 /* Email.swift in Sources */,
+				8492540C2943948C0068D6E0 /* ConcreteVisitor1.swift in Sources */,
+				84925409294394670068D6E0 /* Visitor.swift in Sources */,
+				84925424294396210068D6E0 /* BlackListVisitor.swift in Sources */,
+				8492541B294395B50068D6E0 /* Push.swift in Sources */,
+				84925422294396110068D6E0 /* DefaultPolicyVisitor.swift in Sources */,
+				84925414294395690068D6E0 /* Notification.swift in Sources */,
+				8492540E294394990068D6E0 /* ConcreteVisitor2.swift in Sources */,
+				84925420294396040068D6E0 /* NightPolicyVisitor.swift in Sources */,
+				84925407294394520068D6E0 /* ConcreteComponentB.swift in Sources */,
+				84925411294394BB0068D6E0 /* Client.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,8 +595,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,9 +603,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Visitor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -471,8 +625,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -480,9 +633,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Visitor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
