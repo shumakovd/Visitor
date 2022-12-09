@@ -30,6 +30,7 @@
 		84925420294396040068D6E0 /* NightPolicyVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492541F294396040068D6E0 /* NightPolicyVisitor.swift */; };
 		84925422294396110068D6E0 /* DefaultPolicyVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84925421294396110068D6E0 /* DefaultPolicyVisitor.swift */; };
 		84925424294396210068D6E0 /* BlackListVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84925423294396210068D6E0 /* BlackListVisitor.swift */; };
+		84925427294396DE0068D6E0 /* info.rtfd in Resources */ = {isa = PBXBuildFile; fileRef = 84925426294396DE0068D6E0 /* info.rtfd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		8492541F294396040068D6E0 /* NightPolicyVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightPolicyVisitor.swift; sourceTree = "<group>"; };
 		84925421294396110068D6E0 /* DefaultPolicyVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultPolicyVisitor.swift; sourceTree = "<group>"; };
 		84925423294396210068D6E0 /* BlackListVisitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackListVisitor.swift; sourceTree = "<group>"; };
+		84925426294396DE0068D6E0 /* info.rtfd */ = {isa = PBXFileReference; lastKnownFileType = wrapper.rtfd; path = info.rtfd; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 				849253FA294393610068D6E0 /* ViewControllers */,
 				849253F92943935A0068D6E0 /* Storyboards */,
 				849253D22943933B0068D6E0 /* Assets.xcassets */,
+				84925425294396D20068D6E0 /* info */,
 				849253D72943933B0068D6E0 /* Info.plist */,
 			);
 			path = Visitor;
@@ -265,6 +268,14 @@
 			path = Visitors;
 			sourceTree = "<group>";
 		};
+		84925425294396D20068D6E0 /* info */ = {
+			isa = PBXGroup;
+			children = (
+				84925426294396DE0068D6E0 /* info.rtfd */,
+			);
+			path = info;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -371,6 +382,7 @@
 			files = (
 				849253D62943933B0068D6E0 /* LaunchScreen.storyboard in Resources */,
 				849253D32943933B0068D6E0 /* Assets.xcassets in Resources */,
+				84925427294396DE0068D6E0 /* info.rtfd in Resources */,
 				849253D1294393380068D6E0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
